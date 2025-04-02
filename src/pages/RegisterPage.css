@@ -1,0 +1,66 @@
+/* src/pages/RegisterPage.css */
+
+.register-container {
+    max-width: 480px; /* Slightly wider for more fields potentially */
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .register-container form div {
+    margin-bottom: 1rem; /* Adjust spacing if needed */
+  }
+  
+   /* Override input width if not full width by default from App.css */
+   /* .register-container form input[type="text"],
+   .register-container form input[type="email"],
+   .register-container form input[type="password"] {
+       width: 100%;
+       box-sizing: border-box;
+   } */
+  
+  .register-container form button[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    margin-top: 1.5rem; /* More space before button */
+  }
+  
+  .register-container .error-message {
+    color: #a94442;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .register-container .switch-auth-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .register-container .switch-auth-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .register-container .switch-auth-link a:hover {
+    text-decoration: underline;
+  }
+  

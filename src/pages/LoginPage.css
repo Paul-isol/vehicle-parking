@@ -1,0 +1,61 @@
+/* src/pages/LoginPage.css */
+
+.login-container {
+    max-width: 450px; /* Limit width of the login box */
+    margin: 3rem auto; /* Center the box vertically (with margin) and horizontally */
+    padding: 2.5rem; /* Inner spacing */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #eee;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 2rem; /* Space below heading */
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  /* Inherit form div, label, input styles from App.css but allow overrides */
+  
+  /* Specific overrides or additions */
+  .login-container form div {
+    margin-bottom: 1.2rem; /* Slightly more space between fields */
+  }
+  
+  .login-container form button[type="submit"] {
+    width: 100%; /* Make button full width */
+    padding: 0.9rem; /* Slightly larger button */
+    font-size: 1.1rem;
+    margin-top: 1rem; /* Space above button */
+  }
+  
+  .login-container .error-message {
+    color: #a94442; /* Darker red for errors */
+    background-color: #f2dede; /* Light red background */
+    border: 1px solid #ebccd1;
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem; /* Space below error */
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .login-container .switch-auth-link {
+    text-align: center;
+    margin-top: 1.5rem; /* Space above the 'register here' link */
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .login-container .switch-auth-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-container .switch-auth-link a:hover {
+    text-decoration: underline;
+  }
+  
