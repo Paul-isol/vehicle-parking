@@ -44,19 +44,19 @@ const testimonialsData = [
     {
         id: 't1',
         quote: 'So easy to find and book a spot near my office. Saved me so much time!',
-        author: 'Sarah K.',
+        author: 'UWAIS.',
         rating: 5
     },
     {
         id: 't2',
         quote: 'Used ParkWise for airport parking. The process was smooth and hassle-free.',
-        author: 'Mike R.',
+        author: 'JUMAIL.',
         rating: 4
     },
     {
         id: 't3',
         quote: 'Love the app! Finding parking in the city used to be a nightmare.',
-        author: 'Jessica L.',
+        author: 'ISOL.',
         rating: 5
     }
 ];
